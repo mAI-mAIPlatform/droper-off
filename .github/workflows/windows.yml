@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Construction
-        run: npm run build -- --publish never
+        run: npm run build
 
       - name: Telechargement du fichier
         uses: actions/upload-artifact@v4
