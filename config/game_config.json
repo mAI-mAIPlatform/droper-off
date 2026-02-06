@@ -1,0 +1,39 @@
+{
+  "player": {
+    "walkSpeed": 10,
+    "runSpeed": 18,
+    "jumpForce": 12,
+    "maxHealth": 100,
+    "inventorySize": 5
+  },
+  "physics": {
+    "gravity": -25,
+    "friction": 0.1,
+    "airResistence": 0.02
+  },
+  "building": {
+    "gridSize": 4,
+    "buildDistance": 6,
+    "maxStructures": 500,
+    "materialHealth": 150
+  },
+  "weapons": {
+    "ar": {
+      "damage": 33,
+      "fireRate": 0.12,
+      "range": 500,
+      "magSize": 30
+    },
+    "shotgun": {
+      "damage": 80,
+      "fireRate": 0.8,
+      "range": 20,
+      "pellets": 8
+    }
+  },
+  "world": {
+    "botCount": 20,
+    "zoneShrinkTime": 120,
+    "mapLimit": 1000
+  }
+}
